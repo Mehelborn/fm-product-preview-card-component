@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F2EBE3;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-top: 5%;
+  font-weight: normal;
+  color: #84858E;
+  letter-spacing: 6px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.the-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 60%;
+}
+
+.perfume-image {
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  height: 100%;
+}
+
+.the-info {
+  background-color: white;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 5%;
+}
+
+.prices {
+  display: flex;
+}
+
+.price {
+  font-family: 'Fraunces', serif;
+  color: #3F8169;
+  font-size: 2rem;
+}
+
+.fake-price {
+  font-family: 'Fraunces', serif;
+  color: grey;
+  font-size: 12px;
+  text-decoration: line-through;
+  align-self: center;
+  margin-left: 5%;
+}
+
+.add-button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #3D8168;
+  color: #fff;
+  border-radius: 9px;
+  border: none;
+  padding: 5%;
+  margin: 5% 0 5% 0;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  h1 {
+    line-height: 1.8rem;
+  }
+
+  h4 {
+    padding-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .container {
+    align-items: flex-start;
+  }
+
+  .the-card {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+    padding: 5%;
+  }
+
+  .perfume-image {
+    content: url("../images/image-product-mobile.jpg");
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .the-info {
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .attribution {
+    display: none;
+  }
+
+  .add-button {
+    margin: 2% 0 5%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 650px) {
+
+}
+
+/* tablet */
+
+@media screen and (min-width: 651px) and (max-width: 768px) {
+
+}
