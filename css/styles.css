@@ -1,19 +1,29 @@
-* {
-  box-sizing: border-box;
+.Fraunces {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+.Montserrat500 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.Montserrat700 {
+  font-family: 'Montserrat700', sans-serif;
+  font-weight: 700;
 }
 
 body {
+  box-sizing: border-box;
   background-color: #F2EBE3;
   margin: 0;
 }
 
 h1 {
-  font-family: 'Fraunces', serif;
   margin: 0;
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   padding-top: 5%;
   font-weight: normal;
@@ -22,7 +32,6 @@ h4 {
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
   color: grey;
   font-size: 14px;
 }
@@ -68,13 +77,11 @@ p {
 }
 
 .price {
-  font-family: 'Fraunces', serif;
   color: #3F8169;
   font-size: 2rem;
 }
 
 .fake-price {
-  font-family: 'Fraunces', serif;
   color: grey;
   font-size: 12px;
   text-decoration: line-through;
@@ -83,7 +90,6 @@ p {
 }
 
 .add-button {
-  font-family: 'Montserrat', sans-serif;
   background-color: #3D8168;
   color: #fff;
   border-radius: 9px;
