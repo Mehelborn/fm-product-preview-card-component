@@ -18,13 +18,14 @@
 </head>
 
 <body>
+
   <div class="container">
 
-    <div class="card">
+    <main class="card" role="main">
 
-      <img src="images\image-product-desktop.jpg" alt="" class="perfume-image">
+      <img src="images/image-product-desktop.jpg" alt="image of CHANEL`s perfume" class="perfume-image" role="img">
 
-      <div class="info">
+      <section class="info" role="region">
 
         <h4 class="Montserrat700">PERFUME</h4>
 
@@ -33,24 +34,25 @@
         <p class="Montserrat500">A floral, solar and voluptuous interpretation composed by Olivier Polge,
           Perfumer-Creator for the House of CHANEL.</p>
 
-        <div class="prices Fraunces">
-          <span class="price">$149.99</span>
+        <div class="prices Fraunces" aria-label="price">
+          <span class="price" aria-label="price $149.99">$149.99</span>
           <span class="fake-price">$169.99</span>
         </div>
 
-        <button type="button" name="button" class="add-button Montserrat500">
+        <button type="button" name="button" class="add-button Montserrat500" role="button" aria-label="Add to cart">
           <img src="images/icon-cart.svg" alt="shopping cart" class="cart-image">
           Add to Cart
         </button>
 
-      </div>
+      </section>
 
-    </div>
+    </main>
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.frontendmentor.io/profile/Mehelborn">mehelborn</a>.
-    </div>
+
+    <footer class="attribution" role="contentinfo">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" role="link" aria-label="link to the challenge">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/Mehelborn" role="link" aria-label="link to the author">mehelborn</a>.
+    </footer>
 
   </div>
 
